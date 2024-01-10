@@ -52,7 +52,7 @@ increase_date = dates[changes.index(greatest_increase)]
 decrease_date = dates[changes.index(greatest_decrease)]
 
 # Set the path to the analysis folder
-analysis_folder = os.path.join(script_dir, "analysis")
+analysis_folder = os.path.join("..", "analysis")
 
 # Ensure the analysis folder exists
 os.makedirs(analysis_folder, exist_ok=True)
